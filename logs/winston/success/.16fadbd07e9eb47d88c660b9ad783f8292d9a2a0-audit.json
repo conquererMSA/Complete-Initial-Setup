@@ -1,0 +1,30 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 4
+    },
+    "auditLog": "E:\\next-level\\Backend Braniac\\Wep App Initial Setup\\logs\\winston\\success\\.16fadbd07e9eb47d88c660b9ad783f8292d9a2a0-audit.json",
+    "files": [
+        {
+            "date": 1694417793135,
+            "name": "E:\\next-level\\Backend Braniac\\Wep App Initial Setup\\logs\\winston\\success\\13-11-09-2023-WAIS-success.log",
+            "hash": "294e9c41a0617c41f4d29f68a4bb0110f42ab34a41831f3fae8b17c4d5e930b1"
+        },
+        {
+            "date": 1694419865553,
+            "name": "E:\\next-level\\Backend Braniac\\Wep App Initial Setup\\logs\\winston\\success\\14-11-09-2023-WAIS-success.log",
+            "hash": "d6ffa422e75b5fa3ce1deb5b3cd70e8402c8dfedc6758ba6ede1807499fdb46c"
+        },
+        {
+            "date": 1694422883557,
+            "name": "E:\\next-level\\Backend Braniac\\Wep App Initial Setup\\logs\\winston\\success\\15-11-09-2023-WAIS-success.log",
+            "hash": "98343d552b50152eb024ba122fda5285b08348a7852930b0f33ad82995ba9653"
+        },
+        {
+            "date": 1694426435134,
+            "name": "E:\\next-level\\Backend Braniac\\Wep App Initial Setup\\logs\\winston\\success\\16-11-09-2023-WAIS-success.log",
+            "hash": "fbb480b94fde93a259ef9245ab879f30fdfb2bbb80b1033a41f88e31c3e791d9"
+        }
+    ],
+    "hashType": "sha256"
+}

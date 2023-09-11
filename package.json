@@ -1,0 +1,53 @@
+{
+  "name": "wep-app-initial-setup",
+  "version": "1.0.0",
+  "description": "This app is a initial starting for every NODE-EXPRESS backend application.This initial app configured eslint, husky, lint-staged, and prettier for code formatting and pre-commit error checking. There also configured logger, zod, and others packages and plugins. ",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "lint:check": "eslint --ignore-path .eslintignore --ext .js,.ts .",
+    "lint:fix": "eslint . --fix",
+    "prettier:check": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
+    "prettier:fix": "prettier --write .",
+    "lint-prettier": "yarn lint:check && yarn prettier:check",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "lint-staged": {
+    "src/**/*.ts": "yarn lint-prettier"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conquererMSA/Web-App-Initial-Setup.git"
+  },
+  "keywords": [
+    "WAIS_BY_MSA"
+  ],
+  "author": "MSA by Tarmat Inc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/conquererMSA/Web-App-Initial-Setup/issues"
+  },
+  "homepage": "https://github.com/conquererMSA/Web-App-Initial-Setup#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.14",
+    "@types/express": "^4.17.17",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "prettier": "^3.0.3",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.6.0",
+    "@typescript-eslint/parser": "^6.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "eslint": "^8.49.0",
+    "eslint-config-prettier": "^9.0.0",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "winston": "^3.10.0",
+    "winston-daily-rotate-file": "^4.7.1",
+    "zod": "^3.22.2"
+  }
+}
